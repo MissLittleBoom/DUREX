@@ -265,8 +265,52 @@ body {
 
 .product_img {
     width: 80%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+    .product_img01 {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+        width: 80%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-image: url(../images/bed1.jpg);
+        /* background-color: red; */
+        min-height: 650px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .product_img02 {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+        width: 80%;
+        min-height: 650px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-image: url(../images/vaginal_sex_article1.jpg);
+        /* background-color: red; */
+        
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .product_img03 {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+        width: 80%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-image: url(../images/Shop_Edit1.jpg);
+        /* background-color: red; */
+        min-height: 650px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
 input[type=text], select, textarea {
     width: 100%;
@@ -520,6 +564,22 @@ input[type=text], select, textarea {
   .zoom:hover {
     transform: scale(1.2);
   }
+
+  #namingconvention{
+	text-align: right;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 20%;
+    padding-bottom: 10%;
+}
+
+#namingconvention2{
+	text-align: right;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 20%;
+    padding-bottom: 20%;
+}
 
 
 
